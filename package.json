@@ -1,11 +1,22 @@
 {
   "name": "vs-paranthesis-highlighter",
-  "displayName": "VS-Paranthesis-Highlighter",
+  "displayName": "VS Paranthesis Highlighter",
   "description": "A vs code extension for selecting and highlighting everything inside a brackets/parathesis",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.63.0"
   },
+  "publisher": "ShreyansMulkutkar",
+  "author": {
+    "name": "ShreyansMulkutkar"
+  },
+  "homepage": "https://github.com/AxonBlAzE/VSParanthesisHighlighter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AxonBlAzE/VSParanthesisHighlighter"
+  },
+  "icon": "assets/logo.png",
+  "keywords": ["vs", "code", "bracket", "paranthesis", "highlighter", "vs-paranthesis-highlighter", "vs-bracket-highlighter"],
   "categories": [
     "Other"
   ],
