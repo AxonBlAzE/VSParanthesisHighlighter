@@ -1,6 +1,6 @@
 # VSParanthesisHighlighter
 
-A simple vs code extension made in JavaScript to select and highlight all content within a parenthesis/bracket.
+A simple vs code extension made in JavaScript to select and highlight all content within a pair of parenthesis/bracket.
 
 ## Usage
 
