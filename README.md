@@ -7,19 +7,19 @@ A simple vs code extension made in JavaScript to select and highlight all conten
 ### Paranthesis/Circular Brackets
 To highlight everything inside a circular bracket simply press <kbd> CTRL + 1 </kbd>
 
-![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/circular.gif)
+![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/angular.gif?raw=true)
 
 ### Square Brackets
 To highlight everything inside a square bracket simply press <kbd> CTRL + 2 </kbd>
 
-![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/square.gif)
+![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/angular.gif?raw=true)
 
 ### Curly Brackets
 To highlight everything inside a curly bracket simply press <kbd> CTRL + 3 </kbd>
 
-![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/curly.gif)
+![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/angular.gif?raw=true)
 
 ### Angular Brackets
 To highlight everything inside a angular bracket simply press <kbd> CTRL + 4 </kbd>
 
-![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/angular.gif)
+![demo](https://github.com/AxonBlAzE/VSParanthesisHighlighter/blob/main/assets/demo/angular.gif?raw=true)
