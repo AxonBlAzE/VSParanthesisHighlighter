@@ -1,0 +1,79 @@
+{
+  "name": "vs-paranthesis-highlighter",
+  "displayName": "VS-Paranthesis-Highlighter",
+  "description": "A vs code extension for selecting and highlighting everything inside a brackets/parathesis",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:vs-paranthesis-highlighter.highlight",
+    "onCommand:vs-paranthesis-highlighter.HighlightParenthesis",
+    "onCommand:vs-paranthesis-highlighter.HighlightSquareBrackets",
+    "onCommand:vs-paranthesis-highlighter.HighlightCurlyBrackets",
+    "onCommand:vs-paranthesis-highlighter.HighlightAngleBrackets"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vs-paranthesis-highlighter.HighlightParenthesis",
+        "title": "Higlight Parenthesis"
+      },
+      {
+        "command": "vs-paranthesis-highlighter.HighlightSquareBrackets",
+        "title": "Higlight Square Brackets"
+      },
+      {
+        "command": "vs-paranthesis-highlighter.HighlightCurlyBrackets",
+        "title": "Higlight Curly Brackets"
+      },
+      {
+        "command": "vs-paranthesis-highlighter.HighlightAngleBrackets",
+        "title": "Higlight Angle Brackets"
+      }
+    ],
+    "keybindings":[
+      {
+        "command": "vs-paranthesis-highlighter.HighlightParenthesis",
+        "when": "editorFocus",
+        "key": "Ctrl+1"
+      },
+      {
+        "command": "vs-paranthesis-highlighter.HighlightSquareBrackets",
+        "when": "editorFocus",
+        "key": "Ctrl+2"
+      },
+      {
+        "command": "vs-paranthesis-highlighter.HighlightCurlyBrackets",
+        "when": "editorFocus",
+        "key": "Ctrl+3"
+      },
+      {
+        "command": "vs-paranthesis-highlighter.HighlightAngleBrackets",
+        "when": "editorFocus",
+        "key": "Ctrl+4"
+      }
+      
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.4",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.63.0",
+    "@vscode/test-electron": "^1.6.2",
+    "eslint": "^8.1.0",
+    "glob": "^7.1.7",
+    "mocha": "^9.1.3",
+    "typescript": "^4.4.4"
+  }
+}
